@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 
-    <!-- FAQs css link -->
+    <!-- Places css link -->
     <link rel="stylesheet" href="css/PlacesToStay.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -58,7 +58,7 @@
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> ACTIVITIES </a>
                             <ul class="dropdown-menu" style="background-color: black;">
                                 <div class="nav-subitem">
-                                    <li><a class="dropdown-item" href="#activities">GALLERY</a></li>
+                                    <li><a class="dropdown-item" href="gallery.html">GALLERY</a></li>
                                 </div>
 
                                 <div class="nav-subitem">
@@ -95,7 +95,7 @@
                         <h1>
                             <div class="h2 fw-bold" style="color:#FFEA00;">Need a getaway? Don't worry, leave that to us
                             </div>
-                            <div class="h4" style="color: whitesmoke;">Go to your choice</div>
+                            <div class="h4" style="color: whitesmoke; font-style: italic;">Go to your choice</div>
                         </h1>
                         <a href="#topic" class="btn btn-lg mb-2 rounded-right"
                             style="background-color:#ff474c; color: whitesmoke;">Start Now</a>
@@ -108,7 +108,6 @@
     <!--NavBar End-->
 
     <!--Selection-->
-
     <section id="topic" class="bg-dark">
         <div class="container-fluid text-white p-5">
             <div class="center gap text-center">
@@ -184,8 +183,8 @@
 
                     <!-- Para 1 -->
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>LET'S STAY</h2>
                                 <p class="first-para">Let'stay Homestay Da Lat offers accommodation in Ấp Da
                                     Thien. Each unit at this hotel has city views, and guests can relax in the
@@ -194,12 +193,12 @@
                                 </p>
                                 <p class="second-para">The hotel is located 2.5 km from Da Lat city. The nearest
                                     airport is Lien Khuong Airport, 25 km from Let'stay Homestay Da Lat.</p>
-                                <a href="https://www.agoda.com/vi-vn/let-stay-homestay-da-lat/hotel/dalat-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&los=1&searchrequestid=de4f6a94-ac98-4b57-9715-876b15238330" target="blank"
+                                <a href="https://www.booking.com/hotel/vn/let-39-stay-da-lat.vi.html" target="blank"
                                     class="primary-btn">Read More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-6" style="padding-top: 1rem;">
+                        <div class="col-lg-6">
                             <div id="homestay1" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#homestay1" data-bs-slide-to="0"
@@ -253,7 +252,7 @@
 
                     <!-- Para 2 -->
                     <div class="row">
-                        <div class="col-lg-6" style="padding-top: 1rem;">
+                        <div class="col-lg-6">
                             <div id="homestay2" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#homestay2" data-bs-slide-to="0"
@@ -308,8 +307,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>THE HOME STATION</h2>
                                 <p class="first-para">The Home Station located in Phu Quoc Island, 10 km from
                                     Sung Hung Pagoda and 26 km from Corona Casino, The Home Station offers rooms
@@ -320,7 +319,7 @@
                                     wardrobe and a refrigerator. The private bathroom has a shower and a
                                     hairdryer.
                                 </p>
-                                <a href="https://www.agoda.com/vi-vn/chill-house-by-the-beach/hotel/phu-quoc-island-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&tspTypes=8&los=1&searchrequestid=c7e4c7e4-fed0-4aa3-82a3-005e81d31b11" target="blank" class="primary-btn">Read More</a>
+                                <a href="#" class="primary-btn">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -329,8 +328,8 @@
 
                     <!-- Para 3 -->
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>Cozrum Homes Premier Residences</h2>
                                 <p class="first-para">Located in Ho Chi Minh City, Cozrum Homes - Premier
                                     Residence offers accommodation with free WiFi and free private parking. The
@@ -341,11 +340,11 @@
                                 <p class="second-para">The apartment is located 2.5 km from Tan Dinh Market and
                                     2.7 km from Diamond Plaza. The nearest airport is Tan Son Nhat International
                                     Airport, 6 km from Cozrum Homes - Premier Residence.</p>
-                                <a href="https://www.agoda.com/vi-vn/cozrum-homes-premier-residence-h9393788/hotel/ho-chi-minh-city-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&tspTypes=17,4,-1&los=1&searchrequestid=0cb20599-53b8-453b-a1fb-ca381ffd345e" target="blank" class="primary-btn">Read More</a>
+                                <a href="#" class="primary-btn">Read More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-6" style="padding-top: 1rem;">
+                        <div class="col-lg-6">
                             <div id="homestay3" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#homestay3" data-bs-slide-to="0"
@@ -417,7 +416,7 @@
 
                     <!-- Para 4 -->
                     <div class="row">
-                        <div class="col-lg-6" style="padding-top: 1rem;">
+                        <div class="col-lg-6">
                             <div id="hotel1" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#hotel1" data-bs-slide-to="0" class="active"
@@ -472,8 +471,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>CENTRAL PALACE HOTEL</h2>
                                 <p class="first-para">Central Palace Hotel is a luxury 4-star hotel in Ho Chi
                                     Minh City. Not only has a beautiful location, convenient for travel, but
@@ -484,7 +483,7 @@
                                     <br> ♦ Beautiful and luxurious room system <br> ♦ Many convenient services
                                     <br> ♦ Always have promotions <br>
                                 </p>
-                                <a href="https://www.agoda.com/vi-vn/central-palace-hotel/hotel/ho-chi-minh-city-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&tspTypes=7,9&los=1&searchrequestid=ae23fdfc-b42a-4ec5-9ab3-5f620ad6b454" target="blank" class="primary-btn">Read More</a>
+                                <a href="#" class="primary-btn">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -493,8 +492,8 @@
 
                     <!-- Para 5 -->
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>SAPA HORIZON HOTEL</h2>
                                 <p class="first-para">Sapa Horizon Hotel is one of the 4-star resort hotels in
                                     Sapa that gives visitors a great experience. Sapa Horizon Hotel is located
@@ -506,11 +505,11 @@
                                     <br> ♦ 4-star standard room system
                                     <br> ♦ Luxurious and diverse restaurant about food <br>
                                 </p>
-                                <a href="https://www.agoda.com/vi-vn/sapa-horizon-hotel/hotel/sapa-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&tspTypes=7,8&los=1&searchrequestid=1850d0f4-0dcc-4c96-8499-baf914690796" target="blank" class="primary-btn">Read More</a>
+                                <a href="#" class="primary-btn">Read More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-6" style="padding-top: 1rem;">
+                        <div class="col-lg-6">
                             <div id="hotel2" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#hotel2" data-bs-slide-to="0" class="active"
@@ -570,7 +569,7 @@
 
                     <!-- Para 6 -->
                     <div class="row">
-                        <div class="col-lg-6" style="padding-top: 1rem;">
+                        <div class="col-lg-6">
                             <div id="hotel3" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#hotel3" data-bs-slide-to="0" class="active"
@@ -625,8 +624,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>SEASHELLS HOTEL & SPA</h2>
                                 <p class="first-para">Seashells Phu Quoc Hotel & Spa is known as a 5-star
                                     standard hotel. The hotel is located in the center of Pearl Island, in front
@@ -638,7 +637,7 @@
                                     beautiful sea and mountain views. At the same time, the hotel provides
                                     services such as Coral All-day Dining Restaurant serving attractive dishes.
                                 </p>
-                                <a href="https://www.agoda.com/vi-vn/seashells-phu-quoc-hotel-spa/hotel/phu-quoc-island-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&los=1&searchrequestid=bb111c01-b203-4dfa-ba8a-fce750dd430c" target="blank" class="primary-btn">Read More</a>
+                                <a href="#" class="primary-btn">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -663,8 +662,8 @@
 
                     <!-- Para 7 -->
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>THE SHELLS RESORT & SPA</h2>
                                 <p class="first-para">Everyone needs a place to lay their weary head. For
                                     travelers visiting Duong Dong, The Shells Resort and Spa Phu Quoc is an
@@ -674,11 +673,11 @@
                                     free wifi offered by the resort.</p>
                                 <p class="second-para">The Shells Resort and Spa Phu Quoc features a concierge
                                     and room service, to help make your stay more enjoyable.</p>
-                                <a href="https://www.agoda.com/vi-vn/the-shells-resort-spa-phu-quoc/hotel/phu-quoc-island-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&tspTypes=15&los=1&searchrequestid=0ad44ae0-b826-4e45-9982-a5b1b86c9233" target="blank" class="primary-btn">Read More</a>
+                                <a href="#" class="primary-btn">Read More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-6" style="padding-top: 1rem;">
+                        <div class="col-lg-6">
                             <div id="resort1" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#resort1" data-bs-slide-to="0" class="active"
@@ -737,7 +736,7 @@
                     <!-- Para 7 END -->
 
                     <!-- Para 8 -->
-                    <div class="row" style="padding-top: 1rem;">
+                    <div class="row">
                         <div class="col-lg-6">
                             <div id="resort2" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
@@ -787,8 +786,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>TOPAS ECOLODGE</h2>
                                 <p class="first-para">A private bungalow stay at Topas Ecolodge is the perfect
                                     way to experience the authentic charm of Northern Vietnam, its landscape,
@@ -799,7 +798,7 @@
                                 <p class="second-para">As our guest you will enjoy all the comforts of a
                                     pleasant stay in an environment that is making a commitment to preservation
                                     and sustainable development of to the nature and people of Sapa Valley.</p>
-                                <a href="https://www.agoda.com/vi-vn/topas-ecolodge/hotel/sapa-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&los=1&searchrequestid=516d6564-5189-4395-8178-34ff912967e3" target="blank" class="primary-btn">Read More</a>
+                                <a href="#" class="primary-btn">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -808,8 +807,8 @@
 
                     <!-- Para 9 -->
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="about-text">
+                        <div class="col-lg-6" id="intro-info">
+                            <div class="about-text ps-0">
                                 <h2>VILLA SONG SAI GON</h2>
                                 <p class="first-para">Villa Song Saigon is a lovely boutique hotel with 23
                                     luxuriously appointed rooms and suites, located in District 2, along the
@@ -822,11 +821,11 @@
                                     very
                                     good wine cellar; all coupled with a stunning view of the Saigon River.
                                 </p>
-                                <a href="https://www.agoda.com/vi-vn/villa-song-saigon-saigon-river-villa/hotel/ho-chi-minh-city-vn.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891453&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-12-12&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=VND&isFreeOccSearch=false&tag=fbdf5449-36e5-44e6-bb4b-81cd9ddb6cfc&isCityHaveAsq=false&tspTypes=4&los=1&searchrequestid=bd97c2ff-2c3b-45d4-9069-161558efdb5c" target="blank" class="primary-btn">Read More</a>
+                                <a href="#" class="primary-btn">Read More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-6" style="padding-top: 1rem;">
+                        <div class="col-lg-6">
                             <div id="resort3" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#resort3" data-bs-slide-to="0" class="active"
@@ -908,13 +907,13 @@
                             <a href="index.html" class="text-reset">Home</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Activities</a>
+                            <a href="gallery.html" class="text-reset">Activities</a>
                         </p>
                         <p>
                             <a href="FAQs.html" class="text-reset">FAQS</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Contact Us</a>
+                            <a href="contact.html" class="text-reset">Contact Us</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -1018,7 +1017,7 @@
         title="Go to the top">
         <i class="bi bi-arrow-up"></i>
     </button>
-    <!--Scroll to top button-->
+
 
 </body>
 <script>
